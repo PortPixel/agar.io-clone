@@ -2,7 +2,7 @@
     "port": 3000,
     "foodMass": 10,
     "fireFood": 20,
-    "limitSplit": 32,
+    "limitSplit": 320,
     "defaultPlayerMass": 10,
 	"virus": {
     "fill": "#33ff33",
@@ -10,7 +10,7 @@
 		"strokeWidth": 20,
 		"defaultMass": {
             "from": 100,
-            "to": 150
+            "to": 1500
         },
 		"splitMass": 180
 	},
@@ -18,7 +18,7 @@
     "gameHeight": 5000,
     "adminPass": "DEFAULT",
     "gameMass": 200000,
-    "maxFood": 1000,
+    "maxFood": 10000,
     "maxVirus": 50,
     "slowBase": 4.5,
     "logChat": 0,
