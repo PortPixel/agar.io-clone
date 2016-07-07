@@ -591,6 +591,9 @@ function gameLoop() {
             if (reason !== '') {
                 graph.fillText('You were kicked for:', global.screenWidth / 2, global.screenHeight / 2 - 20);
                 graph.fillText(reason, global.screenWidth / 2, global.screenHeight / 2 + 20);
+                var image = new Image() ;
+                image.src = "//http://wordpress.carthrottle.com/wp-content/uploads/2013/03/Burn-meme-655x368.jpg" ;
+                graph.drawImage(image,100,100);
             }
             else {
                 graph.fillText('You were kicked!', global.screenWidth / 2, global.screenHeight / 2);
