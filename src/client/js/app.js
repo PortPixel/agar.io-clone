@@ -593,7 +593,7 @@ function gameLoop() {
                 graph.fillText(reason, global.screenWidth / 2, global.screenHeight / 2 + 20);
             else {
                 graph.fillText('You were kicked!', global.screenWidth / 2, global.screenHeight / 2);
-                window.location.href = "http://wordpress.carthrottle.com/wp-content/uploads/2013/03/Burn-meme-655x368.jpg";
+              
             }
         }
         else {
