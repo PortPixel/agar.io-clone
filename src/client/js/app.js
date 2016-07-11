@@ -591,6 +591,7 @@ function gameLoop() {
             if (reason !== '') {
                 graph.fillText('You were kicked for:', global.screenWidth / 2, global.screenHeight / 2 - 20);
                 graph.fillText(reason, global.screenWidth / 2, global.screenHeight / 2 + 20);
+            }
             else {
                 graph.fillText('You were kicked!', global.screenWidth / 2, global.screenHeight / 2);
               
