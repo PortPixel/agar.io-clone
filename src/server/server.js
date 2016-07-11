@@ -532,7 +532,7 @@ function tickPlayer(currentPlayer) {
     }
 
     function collisionCheck(collision) {
-        if (collision.aUser.mass > collision.bUser.mass * 1.1  && collision.aUser.radius > Math.sqrt(Math.pow(collision.aUser.x - collision.bUser.x, 2) + Math.pow(collision.aUser.y - collision.bUser.y, 2))*1.75) {
+        if (collision.aUser.mass > collision.bUser.mass * 1.1 /* && collision.aUser.radius > Math.sqrt(Math.pow(collision.aUser.x - collision.bUser.x, 2) + Math.pow(collision.aUser.y - collision.bUser.y, 2))*1.75*/) {
             console.log('[DEBUG] Killing user: ' + collision.bUser.id);
             console.log('[DEBUG] Collision info:');
             console.log(collision);
