@@ -219,7 +219,8 @@ io.on('connection', function (socket) {
     console.log('A user connected!', socket.handshake.query.type);
 
     var type = socket.handshake.query.type;
-    var radius = util.massToRadius(c.defaultPlayerMass);
+    //var radius = util.massToRadius(c.defaultPlayerMass);
+    var radius = util.massToRadius(c.mass);
     var position = c.newPlayerInitialPosition == 'farthest' ? util.uniformPosition(users, radius) : util.randomPosition(radius);
 
     var cells = [];
