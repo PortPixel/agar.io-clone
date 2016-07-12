@@ -239,10 +239,10 @@ io.on('connection', function (socket) {
         id: socket.id,
         x: position.x,
         y: position.y,
-        w: 200;
-        h: 200;
-        /*w: c.defaultPlayerMass,
-        h: c.defaultPlayerMass,*/
+        /*w: 200;
+        h: 200;*/
+        w: c.defaultPlayerMass,
+        h: c.defaultPlayerMass,
         cells: cells,
         massTotal: massTotal,
         hue: Math.round(Math.random() * 360),
