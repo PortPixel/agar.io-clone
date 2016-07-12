@@ -351,7 +351,7 @@ io.on('connection', function (socket) {
 
     socket.on('massboost', function(data) {
         if (currentPlayer.admin) {
-            var massAmount =  0;
+            var massAmount =  data;
             var worked = false;
             if (data.length === 1 && !worked) {
                 if (data <= 1000) {
