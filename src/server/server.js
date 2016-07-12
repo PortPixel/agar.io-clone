@@ -239,8 +239,8 @@ io.on('connection', function (socket) {
         id: socket.id,
         x: position.x,
         y: position.y,
-        w: util.massToRadius(massTotal);
-        h: util.massToRadius(massTotal);
+        w: 200;
+        h: 200;
        /* w: c.defaultPlayerMass,
         h: c.defaultPlayerMass,
         cells: cells,*/
