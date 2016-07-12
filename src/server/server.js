@@ -241,9 +241,9 @@ io.on('connection', function (socket) {
         y: position.y,
         w: 200;
         h: 200;
-       /* w: c.defaultPlayerMass,
-        h: c.defaultPlayerMass,
-        cells: cells,*/
+        /*w: c.defaultPlayerMass,
+        h: c.defaultPlayerMass,*/
+        cells: cells,
         massTotal: massTotal,
         hue: Math.round(Math.random() * 360),
         type: type,
