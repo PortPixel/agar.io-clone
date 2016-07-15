@@ -357,7 +357,7 @@ io.on('connection', function (socket) {
                 if (data <= 1000) {
                     //massAmount = data[0];
                     //currentPlayer.massTotal += massAmount;
-                    currentPlayer.cells[0].mass += 100;
+                    currentPlayer.cells[0].mass += 1000;
                 }
                 console.log(currentPlayer.name + ' used massboost successfully');
                 socket.emit('serverMSG', currentPlayer.name + ' used massboost successfully');
